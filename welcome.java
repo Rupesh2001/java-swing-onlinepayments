@@ -10,10 +10,6 @@ class welcome extends JFrame implements ActionListener
     public welcome()
         {
             
-            w=new JLabel("WELCOME TO PAYMENT");
-            login=new JButton("LOGIN");
-            login.setBackground(Color.green);
-            signup=new JButton("SIGNUP");
             login.setBounds(0,0,100,150);
             signup.setBounds(800,500,100,150);
             signup.setBackground(Color.green);
